@@ -15,6 +15,7 @@ jobs:
         with:
           should_push: false
           output_file: "output-diagram.svg"
+          artifact_name: artifact
       - uses: actions/upload-artifact@v4
         with:
           path: "output-diagram.svg"
