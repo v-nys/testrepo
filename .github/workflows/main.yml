@@ -14,4 +14,4 @@ jobs:
         uses: githubocto/repo-visualizer@main
         with:
           should_push: false
-          artifact_name: "my-diagram"
+          artifact_name: "diagram"
