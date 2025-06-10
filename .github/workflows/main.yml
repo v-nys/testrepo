@@ -14,4 +14,5 @@ jobs:
         uses: githubocto/repo-visualizer@main
         with:
           should_push: false
+          output_file: "output-diagram.svg"
           artifact_name: "diagram"
